@@ -1,0 +1,197 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fef9e6;
+    margin: 0;
+    padding: 0;
+    color: #2d3e2b;
+}
+
+.menu {
+    background-color: #2c5e2a;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #f4a261;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 0 8px;
+    display: inline-block;
+    border-radius: 40px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e76f51;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 248, 235, 0.85);
+    border-radius: 32px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1,
+h2,
+h3 {
+    color: #2c5e2a;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff7ed;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.price-table th,
+.price-table td {
+    border: 1px solid #e2c7a1;
+    padding: 12px;
+    text-align: center;
+}
+
+.price-table th {
+    background-color: #d9b48b;
+    color: white;
+}
+
+.advantages-list,
+.recipe-categories,
+.contacts-info ul {
+    background-color: #fff1e0;
+    padding: 20px 30px;
+    border-radius: 25px;
+    list-style-type: none;
+}
+
+.advantages-list li,
+.recipe-categories li,
+.contacts-info li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.banner,
+.recipe-img {
+    width: 100%;
+    border-radius: 28px;
+    margin: 20px 0;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.gallery-item {
+    background: #ffffffc9;
+    border-radius: 28px;
+    padding: 12px;
+    text-align: center;
+    width: 280px;
+    transition: 0.2s;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.gallery-item p {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.action-btn {
+    background-color: #f4a261;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 20px 0 10px;
+}
+
+.action-btn:hover {
+    background-color: #e76f51;
+    transform: scale(1.02);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #fff6e8;
+    padding: 25px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #e2c7a1;
+    border-radius: 40px;
+    font-family: inherit;
+    background: white;
+}
+
+.contact-form textarea {
+    border-radius: 24px;
+    resize: vertical;
+}
+
+.audio-block {
+    text-align: center;
+    margin: 30px 0;
+}
+
+@media (max-width: 700px) {
+    .button {
+        padding: 8px 16px;
+        margin: 5px;
+    }
+
+    .gallery-item {
+        width: 90%;
+    }
+}
